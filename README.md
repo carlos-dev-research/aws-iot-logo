@@ -1,5 +1,5 @@
 ## Using Cognito
-1. Go to Cognito and Create user pools and identity pool
+1. Go to Cognito and Create user pools, identity pool, users
 2. Setup Cognito in the React App
 
 ### Setting user pool for the React App
