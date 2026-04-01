@@ -1,7 +1,11 @@
 ## Using Cognito
+1. Go to Cognito and Create user pools and identity pool
+2. Setup Cognito in the React App
 
 ### Setting user pool for the React App
 Following AWS setups guide
+1. Configure your user pool app client with allowed callback URLs, logout URLs, and the scopes that you want to request, for example openid and profile. [Learn more](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html)
+
 2. Install the [oidc-client-ts](https://github.com/authts/oidc-client-ts) and [react-oidc-context](https://github.com/authts/react-oidc-context) libraries
 ```bash
 npm install oidc-client-ts react-oidc-context --save
@@ -85,4 +89,3 @@ function App() {
 export default App;
 ```
 
-1. Go to Cognito and Create user pools and identity pool
